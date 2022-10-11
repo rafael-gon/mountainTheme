@@ -1,0 +1,39 @@
+{
+	"name": "thememountain",
+	"displayName": "Mountain Theme",
+	"description": "Theme based in my color palette",
+	"publisher": "RafaelGoncalves",
+	"author": {
+		"name": "Rafael Goncalves"
+	},
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"galleryBanner": {
+		"color": "#1d1626",
+		"theme": "dark"
+	},
+	"icon": "img/icon.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"mountain",
+		"pink",
+		"purple",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mountain Theme",
+				"uiTheme": "vs-dark",
+				"path": "./mountain-theme.json"
+			}
+		]
+	}
+}
